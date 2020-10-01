@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 %:
-	dh $@ --with python-virtualenv
+	dh $@ --with python-virtualenv --with systemd
 
 override_dh_virtualenv:
 	# https://github.com/waveform80/picamera/issues/578#issuecomment-523997913
