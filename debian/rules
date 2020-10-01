@@ -4,4 +4,5 @@
 
 override_dh_virtualenv:
 	# https://github.com/waveform80/picamera/issues/578#issuecomment-523997913
-	READTHEDOCS=True DH_VIRTUALENV_INSTALL_ROOT=/opt python2 $(shell which dh_virtualenv) --python python3 --use-system-packages
+	READTHEDOCS=True DH_VIRTUALENV_INSTALL_ROOT=/opt python2 $(shell which dh_virtualenv) --package odm360-base \
+		--install-suffix odm360 --python python3 --use-system-packages
