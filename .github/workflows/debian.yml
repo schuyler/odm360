@@ -1,0 +1,28 @@
+name: build-packages
+on: push
+jobs:
+  build:
+    name: Build packages
+    runs-on: ubuntu-latest
+    container: debian:buster-slim
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Update repository listings
+        run: apt-get update
+      - name: Download build tools
+        run: apt-get install -y devscripts git
+      - name: Install build dependencies
+        run: yes | mk-build-deps -ri
+      - name: Build packages
+        run: dpkg-buildpackage --build=all,any
+      - name: Save packages
+        run: cp ../*.deb /github/home
+      - name: Upload packages
+        uses: actions/upload-artifact@v2
+        with:
+          name: odm360-debs
+          path: /github/home/*.deb
+          if-no-files-found: error
