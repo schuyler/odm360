@@ -1,0 +1,133 @@
+Package: odm360-base-dbgsym
+Architecture: amd64
+Version: 0.0.1-b64
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: odm360
+Maintainer: Schuyler Erle <schuyler@nocat.net>
+Installed-Size: 1071
+Depends: odm360-base (= 0.0.1-b64)
+Filename: ./odm360-base-dbgsym_0.0.1-b64_amd64.deb
+Size: 862772
+MD5sum: 90b4222643099af73854437aadcf2da7
+SHA1: 7921f18857a331abeed1fa0ce131fa189609af95
+SHA256: a2bc6be39b67739270ba7c46f54273af39a91791d80e62343f3b3f1227bc3f4e
+SHA512: 9fd1240ed3953a9204f3de2f96f867a50abdf5ef86cccd34d99b409c75f0e3698ec7054899a3bf2ee5eefe0e75d5eb64efa03c9605f57598d42e2c8c9907157f
+Description: debug symbols for odm360-base
+Build-Ids: 2a560702487b5adc13c67f08174f404ea3ded536 2da92fb85642f2247b205fc0d05700815f35c756 35b333eb6a174e66764ae64a4cd9f742a587dfc1 5a65785094bce214a728b5cb6a084870380cd975 8a80f75fe189ea6de93e162e3ff308e94ae91f19 9352de4035b8cfc83c9852cb90f7ba799696ae68 abd1ff11c4b73aa8487fa3eaacabf88a9b4038b3 adf1f3724c7b8b408d021457c03f1ab4155f938f ba0dce8cbade8f195139486a81a759252e7c75b8 cb0c8c1ac45ad0779c0a9c949eba6ce8197734d9 e0467ea5a3d7b97b71f7644e4cc39b91b9826592
+
+Package: odm360-base-dbgsym
+Architecture: armhf
+Version: 0.0.1-b64
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: odm360
+Maintainer: Schuyler Erle <schuyler@nocat.net>
+Installed-Size: 1027
+Depends: odm360-base (= 0.0.1-b64)
+Filename: ./odm360-base-dbgsym_0.0.1-b64_armhf.deb
+Size: 840416
+MD5sum: 9c0ff9f2e4e0d731f0bb9e626761f13b
+SHA1: 67fe5dcaa59ba825305315190b118acf6b55379a
+SHA256: 17b44ac64976d690affbadf72c32549a509dbab5bf857a278ff03a51d796ff55
+SHA512: ac512d6c787c61b779c3ef239cfe7e26cc857a287330c635fe250357fba6efd74c317ef144745d342b8173b11ed0b5410ffd8512243c6aa938f5ebdb24140f10
+Description: debug symbols for odm360-base
+Build-Ids: 1b2fcadd9c186d8dd5a31376629469c053943120 313aadc60b82b8238882b38551fcb9e7f789fa02 31ebc82c63e8fcb9e03ccdf7affe8dac180b8b31 78ab085fe2abc530412ee97aaeb0a0a1b2ec40bc 7f2995cb9024f0fc5e582697af1b8d76cee03c2e b39a6ad15de26bfaf7b9709ab5d2b6d1afd6ce10 c79f96c3375c92805392a3505959e5d3c8bbab65 cdf1ba0b1450debcf5e18d63f33ab4e87f75e4eb d162b06fd011428aa4df2a98d5be12d1c24ce014 e25c52c6f7b5f06d0054e5a1d24a7696e1de6451 f572e74babea610ea88741d406b0ec94d2fe0476
+
+Package: odm360-base
+Architecture: amd64
+Version: 0.0.1-b64
+Priority: optional
+Section: science
+Source: odm360
+Maintainer: Schuyler Erle <schuyler@nocat.net>
+Installed-Size: 32689
+Pre-Depends: dpkg (>= 1.16.1), python3
+Depends: libc6 (>= 2.28), libexpat1 (>= 2.1~beta3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), zlib1g (>= 1:1.2.0), python3-numpy, python3-psycopg2, python3-serial, python3-nmap, python3-flask, python3-flask-login
+Filename: ./odm360-base_0.0.1-b64_amd64.deb
+Size: 7007032
+MD5sum: 847c940431803fe37fecef6150ab1c67
+SHA1: c73e7ea9397085578ade4ccc09e2c59858d6be08
+SHA256: cc1762415d4d8548b4edd91bf9f59c3ed008b8f36a3cb3e4ba4223236b21cd4c
+SHA512: 51548d8c8a1bf8fad585f866fa94dfa32387bee17fcbbdfe0de576fdd17bd87f3e04da983600584f445081e0080200efc1ea881af854d6b1232d07e87659cc8e
+Description: ODM360
+    Base package for 3D photogrammetry using gphoto2 on Raspberry Pi.
+
+Package: odm360-base
+Architecture: armhf
+Version: 0.0.1-b64
+Priority: optional
+Section: science
+Source: odm360
+Maintainer: Schuyler Erle <schuyler@nocat.net>
+Installed-Size: 31014
+Pre-Depends: dpkg (>= 1.16.1), python3
+Depends: libc6 (>= 2.28), libexpat1 (>= 2.1~beta3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), zlib1g (>= 1:1.2.0), python3-numpy, python3-psycopg2, python3-serial, python3-nmap, python3-flask, python3-flask-login
+Filename: ./odm360-base_0.0.1-b64_armhf.deb
+Size: 6692492
+MD5sum: f2c332f6c13aa1c1a344e95c8ebb5c38
+SHA1: 93e99de79380ce8347b56650c2bd38bcc8756d56
+SHA256: 0df216dc0e53197b3581fd3b2f8f845acad185f80d5044a27ed099728970d9ca
+SHA512: 470a286910f32d2436745a4942d69da753142cbbe80277b0be25a4455ac84b7450995982214052757e75e2bd80989c16f05cf697ea907bf017ae8dd069d1fcb3
+Description: ODM360
+    Base package for 3D photogrammetry using gphoto2 on Raspberry Pi.
+
+Package: odm360-child
+Architecture: all
+Version: 0.0.1-b64
+Priority: optional
+Section: science
+Source: odm360
+Maintainer: Schuyler Erle <schuyler@nocat.net>
+Installed-Size: 15
+Depends: odm360-base
+Conflicts: odm360-parent
+Filename: ./odm360-child_0.0.1-b64_all.deb
+Size: 2156
+MD5sum: a5423f3dc426ef914a1d79c1f0beb903
+SHA1: 9fef4a0ddadb1d8e009e6f1b1619c4b37ff03f83
+SHA256: 8379b1a961c77e4917c3637750c9edd84ada2183a831f93f3d0db755719735d0
+SHA512: 3d09cebb0bc4897392ad3981840715912273ad89e8e1c2745f9d6960fd5425280f59210261991d543560a6e470f57b65c75273e4113ad8fe6b285c3382e050d0
+Description: ODM360 child module
+    Package for child module for 3D photogrammetry using gphoto2 on Raspberry Pi.
+
+Package: odm360-parent
+Architecture: amd64
+Version: 0.0.1-b64
+Priority: optional
+Section: science
+Source: odm360
+Maintainer: Schuyler Erle <schuyler@nocat.net>
+Installed-Size: 15
+Depends: odm360-base, uwsgi, nginx
+Conflicts: odm360-child
+Filename: ./odm360-parent_0.0.1-b64_amd64.deb
+Size: 2168
+MD5sum: 44c0a88aab72afd4a48994fccc9e085b
+SHA1: e1692140be485e371f6ed0664614ca18fc7f3233
+SHA256: 4adf571dd388e6b665640e5ae21ca86c2083d04f427a9a47b2e1af9717ec132f
+SHA512: 23cbcca47c01fbae30ae83debf261f4310d7c0c1d10a524973a96c6c970906e0d803c7889df0de564823bf23dd25c20eac7181229ac0bf124163bd95b983a231
+Description: ODM360 child module
+    Package for child module for 3D photogrammetry using gphoto2 on Raspberry Pi.
+
+Package: odm360-parent
+Architecture: armhf
+Version: 0.0.1-b64
+Priority: optional
+Section: science
+Source: odm360
+Maintainer: Schuyler Erle <schuyler@nocat.net>
+Installed-Size: 15
+Depends: odm360-base, uwsgi, nginx
+Conflicts: odm360-child
+Filename: ./odm360-parent_0.0.1-b64_armhf.deb
+Size: 2164
+MD5sum: f1ce89ae5a60984b94ae1094615a6af5
+SHA1: f6b2d040eb62693deef814c4d544e57cf798ae7f
+SHA256: 289864fe0783e1dcba154e829e5ddca274d012deb43997d95e0d6cc0a00642b3
+SHA512: b838988a2dfcac3a0054148d74ebbac73e6c6a38bef21cc80fec3e5a8319d087b761a00c95da4c34e7ad92f8288cad48d64d97a77f37defdffd281e1686d7b41
+Description: ODM360 child module
+    Package for child module for 3D photogrammetry using gphoto2 on Raspberry Pi.
+
